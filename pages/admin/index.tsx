@@ -40,18 +40,23 @@ const Home = () => {
               Buzón de pedidos
             </Text>
           </Stack>
-          <Stack
-            p="2rem"
-            bgColor="gray.200"
-            borderRadius=".5rem"
-            align="center"
-            spacing="2rem"
-          >
-            <Image src="https://via.placeholder.com/200" alt="product image" />
-            <Text fontWeight="bold" fontSize="1.5rem">
-              Mis Productos
-            </Text>
-          </Stack>
+          <LinkR href="/admin/productos">
+            <Stack
+              p="2rem"
+              bgColor="gray.200"
+              borderRadius=".5rem"
+              align="center"
+              spacing="2rem"
+            >
+              <Image
+                src="https://via.placeholder.com/200"
+                alt="product image"
+              />
+              <Text fontWeight="bold" fontSize="1.5rem">
+                Mis Productos
+              </Text>
+            </Stack>
+          </LinkR>
           <Stack
             p="2rem"
             bgColor="gray.200"

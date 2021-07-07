@@ -16,18 +16,16 @@ const Home = () => {
     <StoreTemplate>
       <Center py="5rem">
         <Stack spacing="3rem" align="center">
-          <Title>Línea de productos</Title>
+          <Title>Productos de linea</Title>
           <InputGroup>
             <Input variant="filled" />
             <InputRightElement children={<FiSearch />} />
           </InputGroup>
           <SimpleGrid columns={2} gap="1.5rem">
-            <ProductCard href={'/tienda/2'} />
-            <ProductCard href={'/tienda/2'} />
-            <ProductCard href={'/tienda/2'} />
-            <ProductCard href={'/tienda/2'} />
-            <ProductCard href={'/tienda/2'} />
-            <ProductCard href={'/tienda/2'} />
+            <ProductCard isProduct href={'/producto/1'} />
+            <ProductCard isProduct href={'/producto/1'} />
+            <ProductCard isProduct href={'/producto/1'} />
+            <ProductCard isProduct href={'/producto/1'} />
           </SimpleGrid>
         </Stack>
       </Center>

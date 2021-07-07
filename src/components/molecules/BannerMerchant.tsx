@@ -1,8 +1,14 @@
 import { Stack, Box } from '@chakra-ui/react'
 import ButtonAction from '../atoms/ButtonAction'
+import LinkR from '../atoms/LinkR'
 import Title from '../atoms/Title'
 
-const BannerMerchant = () => {
+const BannerMerchant = ({
+  id,
+  img,
+  name = 'cooperativa',
+  isMerchantPage,
+}: any) => {
   return (
     <Stack
       w="100%"
@@ -10,12 +16,16 @@ const BannerMerchant = () => {
       px="3rem"
       spacing="5rem"
       borderRadius="1rem"
-      bgColor="gray.200"
+      bgImage={img}
     >
-      <Title size="xl">Nombre de la cooperativa</Title>
-      <Box>
-        <ButtonAction size="lg">Conoce más</ButtonAction>
-      </Box>
+      <Title size="xl">{name}</Title>
+      {!isMerchantPage && (
+        <Box>
+          <LinkR href={`/merchant/${id}`}>
+            <ButtonAction size="lg">Conoce más</ButtonAction>
+          </LinkR>
+        </Box>
+      )}
     </Stack>
   )
 }

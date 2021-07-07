@@ -42,7 +42,6 @@ const Home = ({ products }: any) => {
 
 export async function getStaticProps() {
   let products = productLines
-  console.log(products)
   return {
     props: { products },
   }

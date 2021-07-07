@@ -15,7 +15,7 @@ const Header = () => {
           <LinkR fontWeight="bold" href="/tienda">
             Tienda
           </LinkR>
-          <LinkR fontWeight="bold" href="/">
+          <LinkR fontWeight="bold" href="/login">
             Iniciar Sesión
           </LinkR>
           <LinkR fontWeight="bold" href="/carro">

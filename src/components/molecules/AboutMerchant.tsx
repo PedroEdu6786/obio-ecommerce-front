@@ -11,11 +11,12 @@ const AboutMerchant = () => {
       <Stack p="5rem" justify="center" spacing="2rem">
         <Title size="lg">Cooperativas Obio</Title>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus dolor similique, architecto delectus eum ducimus optio
-          at tempora deserunt modi. Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Nihil earum recusandae quam, iste cum magni aperiam
-          expedita accusamus natus facere.
+          Es Obio que las cooperativas que integran esta iniciativa comercial
+          para acercar sus productos a los consumidores de la república están
+          comprometidos en salvaguardar la biodiversidad, pues sus huertos,
+          apiarios y familias viven en ellas. Por ello, la cuidan con sus manos,
+          corazón y con la convicción de que este mundo puede ser mejor si
+          mantenemos y conservamos el medio ambiente.
         </Description>
       </Stack>
     </SimpleGrid>

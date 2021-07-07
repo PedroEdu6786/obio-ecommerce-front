@@ -7,13 +7,14 @@ const AboutObio = () => {
   return (
     <Center bgColor="gray.200" p="10rem">
       <Stack align="center" w="25rem" textAlign="center" spacing="1rem">
-        <Title size="lg">¿Qué es Obio?</Title>
+        <Title size="lg">Acerca de Obio</Title>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus dolor similique, architecto delectus eum ducimus optio
-          at tempora deserunt modi. Lorem ipsum dolor sit amet, consectetur
-          adipisicing elit. Nihil earum recusandae quam, iste cum magni aperiam
-          expedita accusamus natus facere.
+          Obio es una iniciativa de comercio justo y colaborativo que busca
+          impulsar la comercialización de productos elaborados con prácticas
+          amigables con la biodiversidad, a través de tiendas de autoservicio,
+          departamentales, especializadas y comercio electrónico, que permitan
+          llevar a la mesa de los hogares mexicanos productos saludables de la
+          más alta calidad.
         </Description>
 
         <HStack pt="3rem" spacing="2rem">

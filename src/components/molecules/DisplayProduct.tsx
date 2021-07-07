@@ -11,23 +11,18 @@ import ButtonAction from '../atoms/ButtonAction'
 import ProductQuantity from './ProductQuantity'
 import ProductTitle from '../atoms/ProductTitle'
 
-const DisplayProduct = () => {
+const DisplayProduct = ({ img, name, price, description }: any) => {
   return (
     <SimpleGrid columns={2} px="8rem" pt="15rem" pb="10rem" justify="center">
       <Center>
-        <Image src="https://via.placeholder.com/400" alt="product image" />
+        <Image src={img} alt="product image" />
       </Center>
       <Stack spacing="1.25rem">
-        <ProductTitle>Café Orgánico</ProductTitle>
+        <ProductTitle>{name}</ProductTitle>
         <Text fontWeight="bold" fontSize="lg">
-          $2504
+          ${price}
         </Text>
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga
-          iusto quia culpa dicta perferendis, architecto quo, et sit numquam
-          modi id sapiente aliquid labore soluta! Obcaecati temporibus dolor
-          mollitia!
-        </Text>
+        <Text>{description}</Text>
         <Box>
           <ProductQuantity />
         </Box>

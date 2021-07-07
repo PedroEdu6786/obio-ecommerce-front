@@ -1,4 +1,4 @@
-import { HStack, Box, Heading } from '@chakra-ui/react'
+import { HStack, Box } from '@chakra-ui/react'
 import LinkR from '../atoms/LinkR'
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
           <LinkR href="/">Obio</LinkR>
         </Box>
         <HStack>
-          <LinkR href="/">Tienda</LinkR>
+          <LinkR href="/tienda">Tienda</LinkR>
           <LinkR href="/">Iniciar Sesión</LinkR>
           <LinkR href="/">Carrito</LinkR>
         </HStack>

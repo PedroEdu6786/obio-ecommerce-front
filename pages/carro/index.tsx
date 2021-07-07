@@ -33,7 +33,9 @@ export default function Home() {
           borderRadius="1rem"
         >
           <Text>Subtotal: 200</Text>
-          <Button>Proceder al pago</Button>
+          <LinkR href="/checkout/envio">
+            <Button>Proceder al pago</Button>
+          </LinkR>
         </Stack>
       </HStack>
     </StoreTemplate>

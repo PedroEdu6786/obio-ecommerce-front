@@ -6,7 +6,7 @@ const StoreTemplate = ({ children, ...rest }: any) => {
   return (
     <Box {...rest}>
       <Header />
-      {children}
+      <Box>{children}</Box>
       <Footer />
     </Box>
   )

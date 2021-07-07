@@ -13,7 +13,6 @@ const LinkR = ({
       <Box
         as="a"
         _hover={{ cursor: 'pointer', textDecoration: decoration }}
-        fontWeight="bold"
         fontSize={{ base: '.9rem', sm: '1rem', md: '1.25rem' }}
         {...rest}
       >
